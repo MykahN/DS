@@ -57,14 +57,13 @@
           <p>{{ msg }}</p>
           
           <!--Two different ways of using v-for-->
-          <li v-for="item in list">{{ item }}</li>
+          <li v-for="row in offers">{{ row }}</li>
           
           <table>
-            <tr v-for="item in list">
-              <td>{{ item }}</td>
+            <tr v-for="row in offers">
+              <td>{{ row.name }} {{ row.salary }} {{ row.bonus }}</td>
             </tr>
-          </table>  
-          
+          </table>          
         </div>
     </div>
   </body>

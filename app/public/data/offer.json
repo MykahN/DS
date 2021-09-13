@@ -1,6 +1,4 @@
-const Offer = {
-    data() {
-        return {
+{
     "offers": [
         {
             "id": 1,
@@ -16,11 +14,7 @@ const Offer = {
             "salary": 65000,
             "bonus": 1000,
             "company": "IU",
-            "offerDate": "2021-10-12"
+            "offerDate": "2021-12-10"
         }
     ]
 }
-    }
-}
-
-Vue.createApp(Offer).mount('#offerApp')
